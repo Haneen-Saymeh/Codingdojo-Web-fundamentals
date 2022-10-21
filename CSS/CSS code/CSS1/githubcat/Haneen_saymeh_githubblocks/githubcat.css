@@ -1,0 +1,44 @@
+
+.container{
+    
+    width: 500px;
+    height: 600px;
+    background-color:grey;
+    padding: 20px;
+}
+
+  .myheader  {
+    text-align: center;
+    
+    
+}
+
+.size{
+    width: 100px;
+    height: auto;
+}
+.parent1{
+    width: 450px;;
+    height: 150px;
+    background-color:#5bc7d3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    
+   margin-left: 5%;
+    
+}
+
+#parent2{
+    
+    background-color:#d1a6ba ;
+    
+    
+}
+
+#parent3{
+    
+    background-color:white ;
+    
+}

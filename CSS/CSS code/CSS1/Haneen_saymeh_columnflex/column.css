@@ -1,0 +1,32 @@
+.row{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+  
+
+}
+
+.col{
+    flex: 1;
+    
+
+    background-color:aqua;
+    margin: 10px;
+}
+
+.col-2{
+    flex: 2;
+    background-color:aqua;
+    margin: 10px;
+}
+
+.col-3{
+    flex: 3;
+    background-color: aqua;
+    margin: 10px;
+     
+}

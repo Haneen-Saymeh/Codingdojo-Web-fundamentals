@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="profile.css">
+    
+</head>
+
+
+<body>
+   <div class="container">
+    <header class="firstheader">
+        
+        <nav class="navbar">
+            
+
+         <div class="leftnav"> 
+            <h1 class="profilename" style="color: white"> Profile</h1>
+            
+            <a class="navtext" href="#">Home</a>
+            <a class="navtext" href="#" style="color: white"> <strong>My Profile</strong></a>
+            <a class="navtext" href="#">Find connections</a>
+        </div>
+        <div class="rightnav">
+            <button class="sign">sign out</button>
+        </div>
+        
+
+        </nav>
+    </header>
+
+    
+    <div class="firstbox">
+        <header class="firstboxhead">
+            <img class="pic" width="50px" height="auto" src="user-circle.png" alt="profile pic">
+        </header>
+        <h3  class="username">Jane Doe</h3>
+        <div>
+        <p> <img width="15px" height="auto" src="map-marker.png" alt="map mark"> Seatle</p>
+        <p>Developer|Engineer|Problem solver <br>Master of the shadows and the internet </p>
+        <img width="20px" height="auto" src="gear.png" alt="gear"> <a  onclick="changename()" href="#">Edit Profile</a>
+        </div>
+    </div>
+
+
+     <div class="secondbox">
+        <header class="secondboxhead">
+            <label style="color: white" > <strong> Education</strong></label>
+        </header>
+
+        <div class="insidesecondbox">
+            <h3>Coding dojo full-stack bootcamp</h3>
+            <p style="color:grey" >Dec2019-March2020</p>
+            <p>Triple black belt in Python, MERN and C#...</p>
+        </div>
+    </div>
+
+
+
+
+        <div class="thirdbox">
+            <header class="thirdboxheader"> 
+                <button class="button1" type="button">2</button> <label style="color: white" >Connection requests</label>
+            </header>
+            <div class="insidethirdbox">
+                <div class="request1">
+                    <div  id = "todd"><img width="30px" height="auto" src="user-circle.png" alt="profile pic"> <label>Todd E</label></div>
+                   <div id="toddpic"><img  onclick="add()" width="30px" height="auto" src="accept-circle.png" alt="accept"><img  onclick="removereq()"  width="30px"  height="auto" src="close-circle.png" alt="close circle"></div>
+                </div>
+                <div class="request2"> 
+                   <div> <img width="30px" height="auto" src="user-circle.png" alt="profile pic"> <label>Phil K</label></div>
+                   <div> <img onclick="add1()"  width="30px" height="auto" src="accept-circle.png" alt="accept"> <img onclick="removereq1()" width="30px"  height="auto" src="close-circle.png" alt="close circle"></div>
+                
+    
+            </div>
+    
+        </div>
+    </div>
+
+    <div class="forthbox">
+        <header class="forthboxheader"> 
+            <button class="button2" type="button">418</button><label style="color: white" >Your connections</label>
+        </header>
+        <div class="insideforthbox">
+        <div class="connectionsnames">
+           <div> <img  width="30px" height="auto" src="adrien-s.jpg" alt="profile pic"> <label>Adrian D.</label></div>
+            <div><img width="30px" height="auto" src="anne-s.jpg" alt="profile pic"> <label>Anne J</label></div>
+            <div><img width="30px" height="auto" src="alayne-s.jpg" alt="profile pic"> <label>Alayne T</label></div>
+            <div><img width="30px" height="auto" src="arry-s.jpg" alt="profile pic"> <label>Arry y</label></div>
+        </div>
+        <hr style="margin-top: 30px">
+           <div> <a style="margin-left:10px" href="#">View more </a></div>
+        
+
+
+        </div>
+
+    </div>
+    
+
+
+
+
+ 
+  </div>
+  <script src="profile.js"></script>
+ </body>
+</html>

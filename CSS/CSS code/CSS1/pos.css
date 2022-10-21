@@ -1,0 +1,8 @@
+.ssh{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    position: fixed;
+    left: 45%;
+    top: 45%;
+}

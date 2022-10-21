@@ -1,0 +1,52 @@
+.nav{
+    width: 800px;
+    height: 70px;
+    background-color: #2a2a2a;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid white;
+}
+
+.nav-title{
+    color: white;
+    text-align: left;
+
+
+}
+
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    color: lightgrey;    
+}
+
+
+.active{
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: turquoise;
+    box-shadow:5px 5px black;
+    margin-left:10px;
+    color:white;
+}
+
+.h{
+    margin-right: 10px;
+    color: lightgrey;
+    text-decoration: none;
+}
+
+.connect{
+    color: lightgray;
+    text-decoration: none;
+}

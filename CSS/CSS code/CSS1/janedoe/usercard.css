@@ -1,0 +1,21 @@
+main{
+    width: 1000px;
+    height: 472px;
+
+}
+header{
+    height: 140px;
+    background-color: lightskyblue;
+}
+#pic{
+    width: 120px;
+    height: 120px;
+    position: absolute ;
+    top: 90px;
+    left: 30px;
+}
+
+.icons{
+    width: 20px;
+    height: 20px;
+}

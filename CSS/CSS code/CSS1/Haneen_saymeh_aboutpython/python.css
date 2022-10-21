@@ -1,0 +1,202 @@
+
+
+.container{
+    width: 970px;
+    height: 800px;
+    background-color: #245076;
+   padding: 2px;
+   
+}
+
+.mainheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.righttophead{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.searchdiv{
+    width: 270px;
+    height: 70px;
+    background-color: #444444;
+    margin-top: 5px;
+    box-shadow: 5px 5px black;
+    margin-right: 10px;
+}
+
+.gobutton{
+    background-color:#245076 ;
+    color: white;
+    border: 2px solid lightgray;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.search{
+    border: 1px solid gray;
+    width: 150px;
+    height: 30px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.desc{
+    text-align: center;
+}
+
+.navbar{
+    width:800px;
+    height: 50px;
+    background-color: #447dad;
+    margin-left: 70px;
+    border-radius: 5px;
+    box-shadow: 1px 1px black;
+    margin-top: 10px;
+    
+    
+}
+
+ul {
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+   
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    
+}
+
+.navtext{
+    margin-top: 15px;
+}
+
+
+
+.sidetext{
+    color: white;
+    font-size: 15px;
+    margin-top: 1px;
+   
+}
+
+.sidetext2{
+    margin-top: 0px;
+}
+
+.sidetext1{
+    margin-top: 10px;
+}
+
+
+
+
+
+.middiv{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sidebar{
+    flex: 1;
+    
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+    
+}
+
+article{
+    flex: 2;
+    
+    
+}
+
+.whitediv{
+    width: 970px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    
+}
+
+.gettingstarted{
+    flex: 1;
+    
+}
+
+.applications{
+    flex: 1;
+}
+
+.startedlist{
+    display: flex;
+    flex-direction: column;
+}
+
+.starttext{
+    font-size: 15px;
+    
+    text-align: center;
+}
+
+.applist{
+    display: flex;
+    flex-direction: column;
+}
+
+.apptext{
+    font-size: 15px;
+   
+    text-align: center;
+
+}
+
+.hline1{
+    width: 400px;
+    border:  2px solid #73a7d5;
+
+    
+}
+.hline2{
+    width: 400px;
+    border:  2px solid #73a7d5;
+    
+
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+.footertext{
+    color: white;
+    opacity: 0.5;
+    font-size: large;
+}
+
+.copyright{
+    color: white;
+    margin-left: 430px;
+    margin-top: 0px;
+}
+
+

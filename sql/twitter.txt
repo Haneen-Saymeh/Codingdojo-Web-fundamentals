@@ -1,0 +1,29 @@
+use twitter;
+
+select *
+from users;
+select *
+from tweets;
+select *
+from follows;
+select *
+from faves;
+
+
+SELECT * 
+FROM users
+WHERE first_name LIKE "A%";
+
+SELECT * 
+FROM users
+order by birthday desc;
+
+INSERT INTO users (first_name, last_name) 
+VALUES('haninz', 'sol');
+
+
+UPDATE users SET birthday = '1990-05-15'
+ WHERE id = 6;
+
+delete from users 
+where id = 6;

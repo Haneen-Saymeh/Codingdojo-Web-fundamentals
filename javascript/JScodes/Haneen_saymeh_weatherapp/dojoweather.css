@@ -1,0 +1,177 @@
+.container{
+    margin: 0 auto;
+    width: 800px;
+    height: 730px;
+    border: 1px solid black;
+}
+
+header{
+    width: 800px;
+    height:100px;
+    background-color:#9fc5f8 ;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rightnav{
+    width: 200px;
+    
+    
+    display: flex;
+    
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+
+.leftnav{
+    width: 200px;
+    height: 50px;
+   
+    margin-top: 15px;
+}
+
+.city{
+    color: white;
+    font-size: 20px;
+}
+
+.underheader{
+    width: 800px;
+    height: 100px;
+   
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.dropdown{
+    width: 200px;
+    height:70px;
+    
+    margin-right: 50px;
+    margin-top: 20px;
+  
+}
+
+hr{
+    width: 80%;
+   margin-bottom: 30px;
+   
+}
+
+.sanjose{
+    width: 200px;
+    height: 50px;
+
+    
+    margin-left: 20px;
+}
+
+article{
+    width:700px;
+    height: 300px;
+    
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.today{
+    width: 150px;
+    height: 300px;
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tomorrow{
+    width: 150px;
+    height: 300px;
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.friday{
+    width: 150px;
+    height: 300px;
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.saturday{
+    width: 150px;
+    height: 300px;
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.temp{
+    width: 100px;
+    height: 50px;
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.cookie{
+    width: 700px;
+    height: 150px;
+    
+    background-color:#eeeeee ;
+    margin-left: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    position:fixed;     //needto remove margins and used position attribute//
+}
+
+
+.accept{
+    background-color: #9fc5f8;
+    box-shadow: 5px 5px 5px black;
+    margin-right: 20px;
+    margin-top: 60px;
+    width: 70px;
+}
+
+.cookiepic{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.tempr{
+    color: red;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+
+.tempb{
+    color:blue;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+

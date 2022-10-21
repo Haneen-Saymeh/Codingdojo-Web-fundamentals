@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dojoweather.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" >
+        <header>
+            <nav class="navbar">
+                <div class="leftnav">
+                    <h1 style="color: white" style="font-size: 70px" >DojoWeather</h1>
+                </div>
+             
+                <div class="rightnav">
+                    <p    class="city" onclick="alert('loading weather report...')"> Burbank </p>
+                    <p class="city"  onclick="alert('loading weather report...')"  >Chicago</p>
+                    <p    class="city"  onclick="alert('loading weather report...')"  >Dallas</p>
+                </div>
+                
+            </nav>
+        </header>
+
+        <section class="underheader">
+            <div  class="sanjose"><h2 style="margin-left:100px"  style="font-size: 30px"  >San Jose</h2></div>
+            <div class="dropdown" >
+                <label>show temperature in</label>
+                <select onchange="choosetemp()"   name="tempscale" id="tempscale">
+                    <option class="option1"  value="celsius">&#8451</option>
+                    <option class="option2"  value="fahrenheit">&#8457</option>
+                    
+                </select>
+
+            </div>
+        
+            
+        </section>
+        <hr>
+        <article>
+            <div class="today">
+                <h3>Today</h3>
+                <span class="circle"><img width="70px"   height="auto" style="border-radius: 50%;" src="some_rain.png" alt="some rain"></span>
+                <p>some rain</p>
+                <div class="temp" ><label class="tempr">24 <span>&#176;</span>  </label><label class="tempb"   >18  <span>&#176;</span> </label></div>
+            </div>
+            <div class="tomorrow">
+                <h3>tomorrow</h3>
+                <span class="circle"><img width="70px"   height="auto" style="border-radius: 50%;" src="some_sun.png" alt="some sun"></span>
+                <p>some rain</p>
+                <div class="temp" ><label class="tempr"  >27 <span>&#176;</span> </label><label class="tempb degree" >19 <span>&#176;</span> </label ></div>
+
+            </div>
+            <div class="friday">
+                <h3>Friday</h3>
+                <span class="circle"><img width="70px"   height="auto" style="border-radius: 50%;" src="some_clouds.png" alt="some clouds"></span>
+                <p>some clouds</p>
+                <div class="temp" ><label class="tempr"  >21 <span>&#176;</span> </label><label class="tempb"  >16 <span>&#176;</span> </label></div>
+
+            </div>
+
+            <div class="saturday">
+                <h3>Saturday</h3>
+                <span class="circle"><img width="70px"   height="auto" style="border-radius: 50%;" src="some_sun.png" alt="some sun"></span>
+                <p>some sun</p>
+                <div class="temp" ><label class="tempr"  >26  <span>&#176;</span> </label><label class="tempb"  >21 <span class="span8">&#176;</span></label></div>
+            </div>
+        </article>
+
+
+        <div class="cookie" >
+            <div><img  class="cookiepic" src="cookie.png" alt="cookie"></div>
+            <div>
+                <h3>Stop! Cookie time</h3>
+                <p>We use cookies (sadly not the edible ones) to personalize <br>content and ads, to provide social media features and to <br> analyse our traffic. <a href="#">Read more...</a> </p>
+            </div>
+            <div><button class="accept" onclick="acceptcookie()"  >I Accept</button></div>
+
+        </div>
+
+        
+
+    </div>
+
+    <script src="dojoweather.js"></script>
+
+    
+</body>
+</html>

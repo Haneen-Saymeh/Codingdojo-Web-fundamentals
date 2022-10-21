@@ -1,0 +1,184 @@
+.container{
+    width: 800px;
+    height: 600px;
+    
+    border: 3px solid gray;
+
+}
+
+.firstheader {
+    width:800px;
+    height: 70px;
+    background-color:black;
+    
+
+    
+
+}
+
+.pic{
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: 2px solid gray;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.profilename{
+    margin-left: 30px;
+}
+
+.leftnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.sign{
+    background-color: lightskyblue;
+    color: white;
+    float: left;
+    width: 50px;
+    height: 30px;
+    
+    /* position: absolute; */
+   
+    
+   
+}
+
+.navtext{
+    color: lightslategrey;
+    text-decoration: none;
+    margin-left: 30px;
+
+}
+
+
+.firstbox{
+    width: 400px;
+    height: 200px;
+  
+    margin-top: 50px;
+    margin-left: 10px;
+    padding-left: 2px;
+    border: 1px solid gray;
+}
+
+.firstboxhead{
+    width: 400px;
+    height: 50px;
+    background-color: aqua;
+    
+}
+
+
+
+
+.secondbox{
+    width:400px;
+    height: 200px;
+    margin-top: 15px;
+    margin-right: 70px;
+    margin-left: 10px;
+    border: 1px solid gray;
+    
+}
+
+.secondboxhead{
+    
+    width: 400px;
+    height: 50px;
+    background-color: gray;
+}
+
+.insidesecondbox{
+    width: 400px;
+   
+    margin-left: 10px;
+  
+    
+    
+}
+
+.thirdbox{
+    width: 200px;
+    height: 150px;
+    border: 1px solid gray;
+    position: relative;
+    left: 500px;
+    bottom: 450px;
+    
+}
+
+.thirdboxheader{
+    width: 200px;
+    height:30px;
+    background-color: grey;
+    justify-content: flex-start;
+    align-items: center;
+  
+}
+
+
+.request1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+
+}
+
+.request2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.forthbox{
+    width: 200px;
+    height: 250px;
+    position: relative;
+    left: 500px;
+    bottom: 420px;
+    border: 1px solid gray;
+   
+
+}
+
+.forthboxheader{
+    width: 200px;
+    height:30px;
+    background-color: grey;
+   
+
+
+}
+
+.connectionsnames{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 3px;
+    margin-top: 5px;
+}
+
+#view{
+    margin-left: 50px;
+    
+}
+
+.button1{
+    border-radius: 50%;
+}
+
+.button2{
+    border-radius: 50%;
+}
+

@@ -1,0 +1,73 @@
+use dojos_and_ninjas_schema;
+
+insert into dojos (name)
+values("han");
+insert into dojos (name)
+values("Zen");
+insert into dojos (name)
+values("Ray");
+
+delete 
+from dojos
+where id = 1;
+delete 
+from dojos
+where id = 2;
+delete 
+from dojos
+where id = 3;
+
+insert into dojos (name)
+values("raz");
+insert into dojos (name)
+values("hanz");
+insert into dojos (name)
+values("sol");
+
+insert into ninjas (first_name, last_name, dojo_id)
+values("rory", "wang",4);
+
+insert into ninjas (first_name, last_name, dojo_id)
+values("zhang", "roy",4);
+
+insert into ninjas (first_name, last_name, dojo_id)
+values("rozy", "liam",4);
+
+
+
+insert into ninjas (first_name, last_name, dojo_id)
+values("ran", "lio",5);
+
+insert into ninjas (first_name, last_name, dojo_id)
+values("sal", "sol",5);
+
+insert into ninjas (first_name, last_name, dojo_id)
+values("jay", "raz",5);
+
+
+insert into ninjas (first_name, last_name, dojo_id)
+values("loki", "aven",6);
+
+insert into ninjas (first_name, last_name, dojo_id)
+values("thor", "rae",6);
+
+insert into ninjas (first_name, last_name, dojo_id)
+values("tony", "stark",6);
+
+
+select *
+from dojos
+join ninjas on dojos.id = ninjas.dojo_id
+where name = "raz";
+
+
+select *
+from dojos
+join ninjas on dojos.id = ninjas.dojo_id
+where name = "sol";
+
+
+select dojos.name
+from dojos
+join ninjas on dojos.id = ninjas.dojo_id
+where ninjas.id = 10;

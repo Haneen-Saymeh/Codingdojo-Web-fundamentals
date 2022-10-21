@@ -1,0 +1,61 @@
+use friendships_schema;
+
+insert into users (first_name, last_name)
+values("Amy", "Giver");
+
+insert into users (first_name, last_name)
+values("Eli", "Byers");
+
+insert into users (first_name, last_name)
+values("Marky", "Mark");
+
+insert into users (first_name, last_name)
+values("Big", "Bird");
+
+insert into users (first_name, last_name)
+values("kermit", "the frog");
+insert into users (first_name, last_name)
+values("haninz", "sol");
+
+
+insert into friendships (user_id, friend_id)
+values (1,2), (1,4), (1,6);
+
+insert into friendships (user_id, friend_id)
+values (2,1), (2,3), (2,5);
+insert into friendships (user_id, friend_id)
+values (3,2), (3,5);
+insert into friendships (user_id, friend_id)
+values (4,3);
+insert into friendships (user_id, friend_id)
+values (5,1), (5,6);
+insert into friendships (user_id, friend_id)
+values (6,2), (6,3);
+
+select users.first_name, users.last_name, users2.first_name as friend_first_name, users2.last_name as friend_last_name
+from users 
+join friendships on users.id = friendships.user_id
+join users as users2 on users2.id = friendships.friend_id;
+
+select users.first_name, users.last_name, users2.first_name as friend_first_name, users2.last_name as friend_last_name
+from users 
+join friendships on users.id = friendships.user_id
+join users as users2 on users2.id = friendships.friend_id
+where users.id = 1;
+
+select count(*) from friendships;
+
+SELECT user_id, users.first_name, count(user_id) as num_friends from friendships
+JOIN users ON users.id = friendships.user_id
+GROUP BY user_id
+ORDER BY num_friends DESC
+LIMIT 1;
+
+
+
+select users.first_name, users.last_name, users2.first_name as friend_first_name, users2.last_name as friend_last_name
+from users 
+join friendships on users.id = friendships.user_id
+join users as users2 on users2.id = friendships.friend_id
+where users.id = 3
+order by friend_first_name asc;
